@@ -2,7 +2,7 @@
 use strict;
 use warnings;
 
-
+BEGIN { require 5.008; }
 
 use ExtUtils::MakeMaker 6.31;
 
@@ -29,7 +29,7 @@ my %WriteMakefileArgs = (
     'Text::MicroTemplate' => '0',
     'parent' => '0'
   },
-  'VERSION' => '0.100',
+  'VERSION' => '0.101',
   'test' => {
     'TESTS' => 't/*.t'
   }

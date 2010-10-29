@@ -7,5 +7,9 @@ Makefile.PL
 README
 dist.ini
 lib/Plack/Middleware/Debug/CatalystPluginCache.pm
-t/00-load.t
+t/00-compile.t
 t/pod.t
+xt/release/distmeta.t
+xt/release/pod-coverage.t
+xt/release/pod-syntax.t
+xt/release/portability.t

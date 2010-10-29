@@ -1,6 +1,6 @@
 package Plack::Middleware::Debug::CatalystPluginCache;
 BEGIN {
-  $Plack::Middleware::Debug::CatalystPluginCache::VERSION = '0.100';
+  $Plack::Middleware::Debug::CatalystPluginCache::VERSION = '0.101';
 }
 
 use 5.008;
@@ -296,6 +296,10 @@ __END__
 =head1 NAME
 
 Plack::Middleware::Debug::CatalystPluginCache - Panel for monitoring Catalyst::Plugin::Cache's
+
+=head1 VERSION
+
+version 0.101
 
 =head1 SYNOPSIS
 
