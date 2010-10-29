@@ -1,5 +1,5 @@
 {
-   "abstract" : "DBI::Profile panel",
+   "abstract" : "Panel for monitoring Catalyst::Plugin::Cache's",
    "author" : [
       "Tim Bunce <Tim.Bunce@pobox.com>"
    ],
@@ -44,6 +44,6 @@
          "web" : "http://github.com/timbunce/Plack-Middleware-Debug-CatalystPluginCache/tree"
       }
    },
-   "version" : "0.003"
+   "version" : "0.100"
 }
 

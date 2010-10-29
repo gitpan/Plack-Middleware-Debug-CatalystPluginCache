@@ -9,7 +9,7 @@ use ExtUtils::MakeMaker 6.31;
 
 
 my %WriteMakefileArgs = (
-  'ABSTRACT' => 'DBI::Profile panel',
+  'ABSTRACT' => 'Panel for monitoring Catalyst::Plugin::Cache\'s',
   'AUTHOR' => 'Tim Bunce <Tim.Bunce@pobox.com>',
   'BUILD_REQUIRES' => {
     'Test::More' => '0.88'
@@ -29,7 +29,7 @@ my %WriteMakefileArgs = (
     'Text::MicroTemplate' => '0',
     'parent' => '0'
   },
-  'VERSION' => '0.003',
+  'VERSION' => '0.100',
   'test' => {
     'TESTS' => 't/*.t'
   }
