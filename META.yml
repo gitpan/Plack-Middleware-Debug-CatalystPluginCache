@@ -23,4 +23,4 @@ requires:
 resources:
   homepage: http://github.com/timbunce/Plack-Middleware-Debug-CatalystPluginCache/tree
   repository: git://github.com/timbunce/Plack-Middleware-Debug-CatalystPluginCache.git
-version: 0.001
+version: 0.002
